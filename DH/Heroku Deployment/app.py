@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, request
-from xgboost import XGBClassifier
+# from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
 import pickle
