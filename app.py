@@ -17,6 +17,35 @@ def home():
     # Return template and data
     return render_template("index.html")
 
+@app.route("/about")
+def about():
+    # Return template and data
+    return render_template("about.html")
+
+@app.route("/side-effects")
+def effects():
+    # Return template and data
+    return render_template("side-effects.html")
+
+@app.route("/dash")
+def dash():
+    # Return template and data
+    return render_template("dash.html")
+
+@app.route("/facts")
+def facts():
+    # Return template and data
+    return render_template("facts.html")
+
+@app.route("/data")
+def data():
+    # Return template and data
+    return render_template("data.html")
+
+@app.route("/sources")
+def sources():
+    # Return template and data
+    return render_template("sources.html")
 
 
 #main
