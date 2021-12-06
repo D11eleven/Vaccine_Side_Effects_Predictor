@@ -14,7 +14,7 @@ numpy
 pandas
 psycopg2
 psycopg2-binary
-python
+python 3.6.10
 python-dateutil
 pytz
 six
