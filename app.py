@@ -27,10 +27,10 @@ def effects():
     # Return template and data
     return render_template("side-effects.html")
 
-@app.route("/dash")
-def dash():
+@app.route("/dashboard")
+def dashboard():
     # Return template and data
-    return render_template("dash.html")
+    return render_template("dashboard.html")
 
 @app.route("/facts")
 def facts():
