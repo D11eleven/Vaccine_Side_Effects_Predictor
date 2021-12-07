@@ -21,4 +21,4 @@ SQLAlchemy
 typing-extensions
 Werkzeug
 wincertstore
-zipp
+zippwordcloud
