@@ -1,15 +1,16 @@
-from flask import Flask, render_template, jsonify, send_from_directory, redirect, url_for, request
-import json
+from flask import Flask, render_template, redirect, request
+# from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
-import os
-# from modelHelper import modelHelper
+import pickle
 
-#init app and class
-# app = Flask(__name__)
-app = Flask(__name__, static_url_path='/static')
-app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-# modelHelper = ModelHelper()
+# Create an instance of Flask
+app = Flask(__name__)
+
+# with open(f'modelfilename.pickle', "rb") as f:
+#     model = pickle.load(f)
+
+# feature_names = model.get_booster().feature_names
 
 # Route to render index.html template
 @app.route("/")
