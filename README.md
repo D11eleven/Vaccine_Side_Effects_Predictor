@@ -42,17 +42,19 @@ allergies, medical history and gender.  Create a model to predict the possible s
 
 Sources: 
 
-[VAERS](https://vaers.hhs.gov/)
 
 
-### Data Sources
+
+## Data Sources
  
 <a href=https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSVAX.csv</a>
 <br>
 
+[VAERS](https://vaers.hhs.gov/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
   
-### The Team
+## The Team
 [Amy Bednarz](https://github.com/abednarz210) ---|--- [Darrell Horich](https://github.com/D11eleven) ---|--- [Taylor Lyons](https://github.com/taylorsyde) ---|--- [Samantha Perez](https://github.com/Sjenn257)
   
 <p align="right">(<a href="#top">back to top</a>)</p>
