@@ -18,9 +18,10 @@
   <ol>
     <li><a href="#1Background ">About The Project</a></li>
     <li><a href="#2Inspiration ">Inspiration</a></li>
-    <li><a href="#3Resources">Recommendations</a></li>
-    <li><a href="#4Process">Process</a></li>
-    <li><a href="#5Process">Process</a></li>
+    <li><a href="#3Process">Process</a></li>
+      <ul>
+         <li><a href="#Tools">Tools</a></li>
+      </ul>
     <li><a href="#6Tools">Tools</a></li>
     <li><a href="#7Data-Sources">Data Sources</a></li>
     <li><a href="#8The Team">Team</a></li>
@@ -41,14 +42,21 @@ allergies, medical history and gender.  Create a model to predict the possible s
 * 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 3Resources 
 
-* Flask App
-* Heroku
-* Python
-* Jupyter
-* Heroku 
-* Javascript
+## 3Our Process
+
+### Tools
+- Machine Learning Models/KNN/LinearRegression/xxx
+- Python/Pandas/Flask
+- Jupyter Notebook
+- Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
+- Tableau
+
+Our original data sources contained nearly 2 million records before ETL. Our team used Pandas and Python to extract and clean data relevant to Texas. These remaining records were then imported into a local Postgres database and deployed to a Postgres Heroku cloud server. 
+
+A Python Flask App was written to facilitate the retrieval of data in the postgres database coming from user requests via the dashboard. It was then deployed using Heroku to create a fully functional Web App.  
+
+The final web application uses Heroku and Flask to retrieve data and Plotly, Leaflet, and Chart.js to render.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -67,6 +75,13 @@ allergies, medical history and gender.  Create a model to predict the possible s
 
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
+
+
 
 ## 7Data Sources
  
