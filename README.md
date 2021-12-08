@@ -80,6 +80,7 @@ allergies, medical history and gender.  Create a model to predict the possible s
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+![tableau_2](https://user-images.githubusercontent.com/82190357/145184648-aef8117c-5434-4d2d-9430-9e993a860a00.png)
 
 ## 7Data Sources
  
