@@ -36,12 +36,16 @@
 The Vaccine Adverse Event Reporting System (VAERS) was created by the FDA and CDC to receive reports about adverse events that may be associated with 
 vaccinations world wide, including the COVID-19 vaccines. Physicians and vaccine providers are encouraged to report adverse events after a vaccination.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 2Inspiration/Motivation
 
 How can we support individuals to understand what side effects they may experience from a Covid Vaccination based on vaccine manufacturer, their age, prior 
 allergies, medical history and gender.  Create a model to predict the possible side effects in the categories of_ Mild, Moderate, or Severe._ 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
