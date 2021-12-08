@@ -11,6 +11,7 @@
 
 ![CovidShot](https://www.coe.int/documents/10518249/88399762/Covid-Vaccine/23edacee-ac47-953e-7c8d-012ec176c157?t=1611227091000)
 
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -32,6 +33,8 @@
 
 The Vaccine Adverse Event Reporting System (VAERS) was created by the FDA and CDC to receive reports about adverse events that may be associated with 
 vaccinations world wide, including the COVID-19 vaccines. Physicians and vaccine providers are encouraged to report adverse events after a vaccination.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 2Inspiration 
 
