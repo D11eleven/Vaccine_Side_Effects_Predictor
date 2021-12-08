@@ -61,27 +61,21 @@ The final web application uses Heroku and Flask to retrieve data and Plotly, Lea
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 4Data Clean UP 
+## 4xxxxData Clean UP 
 
 *
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 5Machine Learning Model
+## 5xxxxMachine Learning Model
  
  * KNN
  * 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 6Future  
+## 6xxxxxxxxFuture  
 
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
-
 
 
 ## 7Data Sources
