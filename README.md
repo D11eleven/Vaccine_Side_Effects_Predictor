@@ -23,9 +23,9 @@
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
-    <li><a href="#4Process">4xxx </a></li>
-    <li><a href="#5xxs">5xx</a></li>
-    <li><a href="#6Future">6<xx</li>
+    <li><a href="#4xxxxData Clean UP">4xxx </a></li>
+    <li><a href="#5xxxxMachine Learning Model">5xx</a></li>
+    <li><a href="#6xxxFuture">6<xx</li>
     <li><a href="#7Data-Sources">Data Sources</a></li>
     <li><a href="#8The Team">Team</a></li>
   </ol>
@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 6xxxxxxxxFuture  
+## 6xxxFuture  
 
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
