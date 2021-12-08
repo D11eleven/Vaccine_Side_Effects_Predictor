@@ -17,7 +17,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#1Background ">1</a></li>
+    <li><a href="#1Background/About ">1</a></li>
     <li><a href="#2Inspiration ">2nspiration</a></li>
     <li><a href="#3Process">3Our Process</a></li>
       <ul>
