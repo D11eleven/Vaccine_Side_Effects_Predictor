@@ -47,7 +47,7 @@ Sources:
 
 ## Data Sources
  
-<a href=https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSVAX.csv</a>
+[COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
 <br>
 
 [VAERS](https://vaers.hhs.gov/)
