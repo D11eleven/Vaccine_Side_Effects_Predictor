@@ -62,6 +62,9 @@ allergies, medical history and gender.  Create a model to predict the possible s
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+![image (1)](https://user-images.githubusercontent.com/82190357/145183563-27e1b7f1-a28e-4401-9172-fcd23046e5f3.png)
+
 ## 4xxxxData Clean UP 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 <p align="right">(<a href="#top">back to top</a>)</p>
