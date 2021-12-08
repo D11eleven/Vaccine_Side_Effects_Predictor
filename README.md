@@ -13,13 +13,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Overview">About The Project</a></li>
-    <li><a href="#Considerations">Considerations</a></li>
-    <li><a href="#Our-Recommendations">Recommendations</a></li>
-    <li><a href="#Process">Process</a></li>
-    <li><a href="#Tools">Tools</a></li>
-    <li><a href="#Data-Sources">Data Sources</a></li>
-    <li><a href="#Team">Team</a></li>
+    <li><a href="#1Background ">About The Project</a></li>
+    <li><a href="#2Inspiration ">Inspiration</a></li>
+    <li><a href="#3s">Recommendations</a></li>
+    <li><a href="#4Process">Process</a></li>
+    <li><a href="#5Process">Process</a></li>
+    <li><a href="#6Tools">Tools</a></li>
+    <li><a href="#7Data-Sources">Data Sources</a></li>
+    <li><a href="#8Team">Team</a></li>
   </ol>
 </details>
 
@@ -52,6 +53,7 @@ allergies, medical history and gender.  Create a model to predict the possible s
 
 *
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## 5Machine Learning Model
  
  * KNN
