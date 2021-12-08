@@ -1,6 +1,5 @@
 # PROJECT-4
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ![CovidShot](https://www.coe.int/documents/10518249/88399762/Covid-Vaccine/23edacee-ac47-953e-7c8d-012ec176c157?t=1611227091000)
 
