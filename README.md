@@ -49,17 +49,16 @@ allergies, medical history and gender.  Create a model to predict the possible s
 ## 3Our Process
 
 ### Tools
-- Machine Learning Models/KNN/LinearRegression/xxx
-- Python/Pandas/Flask
-- Jupyter Notebook
+- Machine Learning Models/KNN/LinearRegression/Random Forest
+- Python/Pandas/Flask/WordCloud
+- Herouku
 - Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
-- Tableau
+- Jupyter Notebook/Tableau
 
-Our original data sources contained nearly 2 million records before ETL. Our team used Pandas and Python to extract and clean data relevant to Texas. These remaining records were then imported into a local Postgres database and deployed to a Postgres Heroku cloud server. 
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-A Python Flask App was written to facilitate the retrieval of data in the postgres database coming from user requests via the dashboard. It was then deployed using Heroku to create a fully functional Web App.  
-
-The final web application uses Heroku and Flask to retrieve data and Plotly, Leaflet, and Chart.js to render.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
