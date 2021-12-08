@@ -13,17 +13,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#Overview">About The Project</a></li>
-      <ul>
-        <li><a href="#Considerations">Considerations</a></li>
-      </ul>
-    </li>
-  <li><a href="#Our-Recommendations">Recommendations</a></li>
+    <li><a href="#Overview">About The Project</a></li>
+    <li><a href="#Considerations">Considerations</a></li>
+    <li><a href="#Our-Recommendations">Recommendations</a></li>
     <li><a href="#Process">Process</a></li>
-      <ul>
-         <li><a href="#Tools">Tools</a></li>
-      </ul>
+    <li><a href="#Tools">Tools</a></li>
     <li><a href="#Data-Sources">Data Sources</a></li>
     <li><a href="#Team">Team</a></li>
   </ol>
