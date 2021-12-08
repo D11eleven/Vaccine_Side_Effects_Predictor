@@ -18,13 +18,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#1Background/About ">1</a></li>
-    <li><a href="#2Inspiration ">2nspiration</a></li>
-    <li><a href="#3Process">3Our Process</a></li>
+    <li><a href="#2Inspiration/Motivation ">2nspiration</a></li>
+    <li><a href="#3Our-Process">3Our Process</a></li>
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
-    <li><a href="#4xxxxData Clean UP">4xxx </a></li>
-    <li><a href="#5xxxxMachine Learning Model">5xxxxMachine Learning Model</a></li>
+    <li><a href="#4Data-Clean-UP">4xxx </a></li>
+    <li><a href="#5Machine-Learning-Model">5xxxxMachine Learning Model</a></li>
     <li><a href="#6xxxFuture">6<xx</li>
     <li><a href="#7Data-Sources">Data Sources</a></li>
     <li><a href="#8The-Team">Team</a></li>
