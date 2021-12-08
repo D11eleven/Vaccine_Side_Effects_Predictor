@@ -38,8 +38,6 @@ vaccinations world wide, including the COVID-19 vaccines. Physicians and vaccine
 How can we support individuals to understand what side effects they may experience from a Covid Vaccination based on vaccine manufacturer, their age, prior 
 allergies, medical history and gender.  Create a model to predict the possible side effects in the categories of_ Mild, Moderate, or Severe._ 
 
-* Dataset from Kaggle [COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
-* 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
