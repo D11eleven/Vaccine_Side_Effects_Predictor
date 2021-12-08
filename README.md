@@ -18,7 +18,7 @@
   <ol>
     <li><a href="#1Background ">About The Project</a></li>
     <li><a href="#2Inspiration ">Inspiration</a></li>
-    <li><a href="#3Process">Process</a></li>
+    <li><a href="#3Process">Our Process</a></li>
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
