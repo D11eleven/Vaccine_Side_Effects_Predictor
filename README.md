@@ -3,11 +3,29 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-##Inspiration 
+## Inspiration 
 
 How can we support individuals to understand what side effects they may experience based on age, prior allergies, medical history and gender.  Create a model to 
-predict the possible side effects.  
+predict the possible side effects in the categories of_ Mild, Moderate, or Severe._ 
 
-* Dataset from Kaggle [![Deploy](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv)
+* Dataset from Kaggle [Kaggle](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
 * 
 
+
+## Resources 
+
+* Flask App
+* Heroku
+* Python
+* Jupyter
+* Heroku 
+* Javascript
+
+## Data Clean UP 
+
+*
+
+## Machine Learning Model
+ 
+ * KNN
+ * 
