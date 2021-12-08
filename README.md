@@ -70,11 +70,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![image (1)](https://user-images.githubusercontent.com/82190357/145183563-27e1b7f1-a28e-4401-9172-fcd23046e5f3.png)
 
-## 4xxxxData Clean UP 
+## 4Data Clean UP 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 5xxxxMachine Learning Model
+## 5Machine Learning Model
  
  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
  
