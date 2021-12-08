@@ -63,14 +63,13 @@ allergies, medical history and gender.  Create a model to predict the possible s
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 4xxxxData Clean UP 
-
-*
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 5xxxxMachine Learning Model
  
- * KNN
- * 
+ "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+ 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 6xxxxxxxxFuture  
