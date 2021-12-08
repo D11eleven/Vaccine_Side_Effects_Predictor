@@ -8,7 +8,7 @@
 How can we support individuals to understand what side effects they may experience based on age, prior allergies, medical history and gender.  Create a model to 
 predict the possible side effects in the categories of_ Mild, Moderate, or Severe._ 
 
-* Dataset from Kaggle [Kaggle](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
+* Dataset from Kaggle [COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
 * 
 
 
@@ -28,4 +28,9 @@ predict the possible side effects in the categories of_ Mild, Moderate, or Sever
 ## Machine Learning Model
  
  * KNN
- * 
+
+
+
+Sources: 
+
+[VAERS](https://vaers.hhs.gov/)
