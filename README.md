@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Tools
 - Machine Learning Models/KNN/LinearRegression/Random Forest
 - Python/Pandas/Flask/WordCloud
-- Herouku
+- Heroku
 - Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
 - Jupyter Notebook/Tableau
 
