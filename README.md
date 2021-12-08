@@ -17,12 +17,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#1Background ">About The Project</a></li>
-    <li><a href="#2Inspiration ">Inspiration</a></li>
-    <li><a href="#3Process">Our Process</a></li>
+    <li><a href="#1Background ">1</a></li>
+    <li><a href="#2Inspiration ">2nspiration</a></li>
+    <li><a href="#3Process">3Our Process</a></li>
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
+    <li><a href="#4Process">3Our Process</a></li>
+    <li><a href="#5Process">3Our Process</a></li>
     <li><a href="#6Tools">Tools</a></li>
     <li><a href="#7Data-Sources">Data Sources</a></li>
     <li><a href="#8The Team">Team</a></li>
