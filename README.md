@@ -116,7 +116,7 @@ Future Implications
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![image](main/Resources/Tab1.png)
+![image](https://raw.githubusercontent.com/D11eleven/Vaccine_Side_Effects_Predictor/main/Resources/Tab1.png)
 
 ##**Sources**
  
