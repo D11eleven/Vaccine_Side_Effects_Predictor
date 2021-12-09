@@ -116,7 +116,7 @@ Future Implications
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![tableau_2](https://public.tableau.com/app/profile/abednarz210/viz/CovidVaccineSymptomTracker/Dashboard1)
+![image](main/Resources/Tab1.png)
 
 ##**Sources**
  
