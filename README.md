@@ -130,5 +130,7 @@ Sources:
 ##**The Team**
 [Amy Bednarz](https://github.com/abednarz210) ---|--- [Darrell Horich](https://github.com/D11eleven) ---|--- [Taylor Lyons](https://github.com/taylorsyde) ---|--- [Samantha Perez](https://github.com/Sjenn257)
   
+ > The mind, in addition to medicine, has the power to turn the immune system around. -Jonas Salk  <
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
