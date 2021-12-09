@@ -16,10 +16,9 @@
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
-    <li><a href=“#1 Background">Background</a></li>
+    <li><a href="#1 Background ">Background</a></li>
     <li><a href="#2 Inspiration and Motivation ">Inspiration and Motivation</a></li>
-    <li><a href="#3 Our Process">Our Process</a></li>
+    <li><a href="#3 Our Process ">Our Process</a></li>
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
@@ -68,15 +67,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- Tools -->
 <details>
   <summary>Tools</summary>
-  <ol>
-    <li><a href=“#Machine_Learning_Models/knn ">Machine Learning Models/KNN</a></li>
-    <li><a href=“#Python”>Python</a></li>
-    <li><a href=“#Pandas”>Pandas</a></li>
-    <li><a href=“#Flask”>Flask</a></li>
-    <li><a href=“#Heroku”>Heroku</a></li>
-    <li><a href=“#Matplotlib/Plotly”>Matplotlib/Plotly</li>
-    <li><a href=“#Bootstrap”>Bootstrap</a></li>
-    <li><a href=“#Jupyter Notebook>Jupyter Notebook</a></li>
+    <li><a href="# Machine_Learning Models/KNN ">Machine_Learning Models/KNN </a></li>
+    <li><a href="# Python ">Python</a></li>
+    <li><a href="# Pandas ">Pandas</a></li>
+    <li><a href="# Flask ">Flask</a></li>
+    <li><a href="# Wordcloud ">Wordcloud</a></li>
+    <li><a href="# Matplotlib/Plotly/DS3/Bootstrap ">Matplotlib/Plotly/DS3/Bootstrap</a></li>
+    <li><a href="# Tableau ">Tableau</a></li>
+    <li><a href="# Jupyter_Notebook ">Jupyter Notebook</a></li>
   </ol>
 </details>
   
