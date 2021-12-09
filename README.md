@@ -31,34 +31,41 @@
   </ol>
 </details>
 
-## 1Background About 
+# **What Could You Expect After Your Covid Vaccine?**  
+  
+## **Background** 
 
-The Vaccine Adverse Event Reporting System (VAERS) was created by the FDA and CDC to receive reports about adverse events that may be associated with 
-vaccinations world wide, including the COVID-19 vaccines. Physicians and vaccine providers are encouraged to report adverse events after a vaccination.
+The Vaccine Adverse Event Reporting System [VAERS](https://vaers.hhs.gov/reportevent.html) was created by the FDA and CDC to recieve and compile reports about 
+the adverse events that may be associated vaccinations world wide, including the COVID-19 vaccines. Physicians and vaccine providers are encouraged to report adverse events after a vaccination. We used Kaggle [COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) to gather vaccine records. 
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
+## **Inspiration and Motivation**
+
+Support individuals to understand what side effects they may experience from Covid Vaccination based on reported side effects from previous vaccine 
+addministration.  Our site uses machine learning to decipherthe input from user shared data that includes vaccine manufacturer, age, prior known allergies, 
+medical history and gender.  The machine learning model predicts the possible side effects in the categories of Mild, Moderate, or Severe using the KNN model to
+determine possible side effects unique to each user. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 2Inspiration Motivation
 
-How can we support individuals to understand what side effects they may experience from a Covid Vaccination based on vaccine manufacturer, their age, prior 
-allergies, medical history and gender.  Create a model to predict the possible side effects in the categories of_ Mild, Moderate, or Severe._ 
-
+## **Our Process**
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-## 3Our Process
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
-
-### Tools
-- Machine Learning Models/KNN/LinearRegression/Random Forest
-- Python/Pandas/Flask/WordCloud
-- Heroku
-- Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
-- Jupyter Notebook/Tableau
+### **Tools**
+  
+* Machine Learning Models/KNN
+* Python
+* Pandas
+* Flask
+* WordCloud
+* Heroku
+* Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
+* Jupyter Notebook
+* Tableau
+  
+  
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
@@ -70,11 +77,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![image (1)](https://user-images.githubusercontent.com/82190357/145183563-27e1b7f1-a28e-4401-9172-fcd23046e5f3.png)
 
-## 4Data Clean UP 
+## **Data Clean UP** 
+  
+  * ETL 
+    * Remove Non-Covid Vaccine Data 
+    * Symptom categorical groupings 
+  
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 5Machine Learning Model
+## **Machine Learning Model**
+  
+  * KNN to take in user input data and return symptoms categories and examples 
  
  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
  
