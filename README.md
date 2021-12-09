@@ -94,14 +94,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 6xxxFuture  
+## **Conclusion** 
 
+Challenges
+
+As data scientists, we have limited medical expertise and many medical symptom terms had to be researched, resulting in the subjective assignment of category
+groups and the classification of severity of symptoms as Mild, Moderate, Severe. 
+
+Future Implications
+
+* If we were given more time and resources our site is scalable. The data is readily available for all vaccinations so we could ptoentially expand to become a
+  general vaccine information site to reassure patients about future risks to make informed decisions when considering upcoming vaccinations. 
+
+* We would go directly to the source instead of Kaggle and extract data from the beginning of COVID vaccinations to now for more data.
+
+* Recruit a medical professional to decipher mild, moderate, severe side effect classess and review quality of data.
+
+* Further deep dive to examine the non-side effect patient data for trends that were reported to get an even better probability.
+  
+  
 Sources: 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![tableau_2](https://user-images.githubusercontent.com/82190357/145184648-aef8117c-5434-4d2d-9430-9e993a860a00.png)
+![tableau_2](https://public.tableau.com/app/profile/abednarz210/viz/CovidVaccineSymptomTracker/Dashboard1)
 
-## 7Data Sources
+##**Sources**
  
 [COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
 <br>
@@ -110,7 +127,7 @@ Sources:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
-## 8The Team
+##**The Team**
 [Amy Bednarz](https://github.com/abednarz210) ---|--- [Darrell Horich](https://github.com/D11eleven) ---|--- [Taylor Lyons](https://github.com/taylorsyde) ---|--- [Samantha Perez](https://github.com/Sjenn257)
   
 <p align="right">(<a href="#top">back to top</a>)</p>
