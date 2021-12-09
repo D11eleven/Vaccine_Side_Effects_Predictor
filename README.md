@@ -17,15 +17,15 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#1Background-About ">1</a></li>
-    <li><a href="#2Inspiration-Motivation ">2nspiration</a></li>
-    <li><a href="#3Our-Process">3Our Process</a></li>
+    <li><a href=“#1 Background">Background</a></li>
+    <li><a href="#2 Inspiration and Motivation ">Inspiration and Motivation</a></li>
+    <li><a href="#3 Our Process">Our Process</a></li>
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
-    <li><a href="#4Data-Clean-UP">4xxx </a></li>
-    <li><a href="#5Machine-Learning-Model">5xxxxMachine Learning Model</a></li>
-    <li><a href="#6xxxFuture">6<xx</li>
+    <li><a href="#4Data-Clean-UP">Data Clean Up </a></li>
+    <li><a href="#5Machine-Learning-Model">Machine Learning Model</a></li>
+    <li><a href="#6Conclusion”>Conclusion</li>
     <li><a href="#7Data-Sources">Data Sources</a></li>
     <li><a href="#8The-Team">Team</a></li>
   </ol>
@@ -65,6 +65,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * Jupyter Notebook
 * Tableau
   
+<!-- Tools -->
+<details>
+  <summary>Tools</summary>
+  <ol>
+    <li><a href=“#Machine_Learning_Models/knn ">Machine Learning Models/KNN</a></li>
+    <li><a href=“#Python”>Python</a></li>
+    <li><a href=“#Pandas”>Pandas</a></li>
+    <li><a href=“#Flask”>Flask</a></li>
+    <li><a href=“#Heroku”>Heroku</a></li>
+    <li><a href=“#Matplotlib/Plotly”>Matplotlib/Plotly</li>
+    <li><a href=“#Bootstrap”>Bootstrap</a></li>
+    <li><a href=“#Jupyter Notebook>Jupyter Notebook</a></li>
+  </ol>
+</details>
   
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
@@ -113,24 +127,26 @@ Future Implications
 * Further deep dive to examine the non-side effect patient data for trends that were reported to get an even better probability.
   
   
-Sources: 
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ![image](https://raw.githubusercontent.com/D11eleven/Vaccine_Side_Effects_Predictor/main/Resources/Tab1.png)
 
-##**Sources**
+## **Sources**
  
 [COVID-19 Vaccine Adverse Event Reporting System](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv) 
 <br>
 
 [VAERS](https://vaers.hhs.gov/)
+  
+[Medicine.net](https://www.medicinenet.com/medterms-medical-dictionary/article.htm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
-##**The Team**
+## **The Team**
 [Amy Bednarz](https://github.com/abednarz210) ---|--- [Darrell Horich](https://github.com/D11eleven) ---|--- [Taylor Lyons](https://github.com/taylorsyde) ---|--- [Samantha Perez](https://github.com/Sjenn257)
   
- > The mind, in addition to medicine, has the power to turn the immune system around. -Jonas Salk  <
+ > The mind, in addition to medicine, has the power to turn the immune system around. -Jonas Salk  
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
