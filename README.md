@@ -14,6 +14,7 @@
 <br>
 
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents</summary>
     <li><a href="#1 Background ">Background</a></li>
@@ -22,11 +23,11 @@
       <ul>
          <li><a href="#Tools">Tools</a></li>
       </ul>
-    <li><a href="#4Data-Clean-UP">Data Clean Up </a></li>
-    <li><a href="#5Machine-Learning-Model">Machine Learning Model</a></li>
-    <li><a href="#6Conclusion”>Conclusion</li>
-    <li><a href="#7Data-Sources">Data Sources</a></li>
-    <li><a href="#8The-Team">Team</a></li>
+    <li><a href="#4 Data-Clean-UP">Data Clean Up </a></li>
+    <li><a href="#5 Machine-Learning-Model">Machine Learning Model</a></li>
+    <li><a href="#6 Conclusion”>Conclusion</li>
+    <li><a href="#7 Sources">Sources</a></li>
+    <li><a href="#8 The-Team">Team</a></li>
   </ol>
 </details>
 
@@ -60,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * Flask
 * WordCloud
 * Heroku
-* Matplotlib/Plotly/D3/[Bootstrap](https://getbootstrap.com)
+* Matplotlib/Plotly/D3/Bootstrap
 * Jupyter Notebook
 * Tableau
   
@@ -141,8 +142,9 @@ Future Implications
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
-## **The Team**
+##  **The Team**
 [Amy Bednarz](https://github.com/abednarz210) ---|--- [Darrell Horich](https://github.com/D11eleven) ---|--- [Taylor Lyons](https://github.com/taylorsyde) ---|--- [Samantha Perez](https://github.com/Sjenn257)
+
   
  > The mind, in addition to medicine, has the power to turn the immune system around. -Jonas Salk  
   
