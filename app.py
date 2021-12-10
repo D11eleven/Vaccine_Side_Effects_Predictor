@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, jsonify, request
 # from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
@@ -65,7 +65,19 @@ def makePredictions():
 
     prediction = modelHelper.makePredictions(age_group, sex, other_meds, cur_ill, history, prior_vax, allergies, vax_name, vax_dose, vax_site)
     print(prediction)
-    return render_template("side-effects.html")
+    return(jsonify({"ok": True, "prediction": str(prediction)}))
+
+@app.after_request
+def add_header(r):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    r.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
+    r.headers["Cache-Control"] = "no-cache, no-store, must-revalidate, public, max-age=0"
+    r.headers["Pragma"] = "no-cache"
+    r.headers["Expires"] = "0"
+    return r
 
 #main
 if __name__ == "__main__":
