@@ -134,11 +134,13 @@ WEBSITE: https://themefisher.com
             <p>Don't worry, we don't store your information. We haven't figured that out yet.</p>
           </div>
 
+          <!-- Demographic Info -->
           <form class="row">
             <div class="col-6">
-              <label for="input-age" class="form-label">Age</label>
-              <select class="form-select" id="input-age" required>
-                <option selected>Select Your Age</option>
+              <!-- age -->
+              <label for="age" class="form-label"></label>
+              <select class="form-select" id="age" required>
+                <option selected>Select Age</option>
                 <option>18-25</option>
                 <option>26-35</option>
                 <option>36-45</option>
@@ -150,71 +152,78 @@ WEBSITE: https://themefisher.com
                 <option>96+</option>
               </select>
             </div>
+
             <div class="col-6">
-              <label for="input-sex" class="form-label">Sex</label>
-              <select class="form-select" id="input-sex">
-                <option selected>Select Your Sex</option>
-                <option>Female</option>
-                <option>Male</option>
-            </div>
-
-            <form class="row">
-              <div class="col-6">
-                <label for="input-age" class="form-label">Age</label>
-                <select class="form-select" id="input-age" required>
-                  <option selected>Select Your Age</option>
-                  <option>18-25</option>
-                  <option>26-35</option>
-                  <option>36-45</option>
-                  <option>46-55</option>
-                  <option>56-65</option>
-                  <option>66-75</option>
-                  <option>76-85</option>
-                  <option>86-95</option>
-                  <option>96+</option>
-                </select>
-              </div>
-              <div class="col-6">
-                <label for="input-sex" class="form-label">Sex</label>
-                <select class="form-select" id="input-sex">
-                  <option selected>Select Your Sex</option>
-                  <option>Female</option>
-                  <option>Male</option>
-              </div>
-
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
+              <!-- sex -->
+              <label for="sex" class="form-label"></label>
+              <select class="form-select" id="sex" required>
+                <option selected>Select Sex</option>
+                <option value='M'>Male</option>
+                <option value='F'>Female</option>
               </select>
             </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+
+          </form>
+ 
+          <!-- Vaccine Info -->
+          <form class="row">
+            <div class="col-9">
+              <label for="manufac" class="form-label"></label>
+              <select class="form-select" id="manufac" required>
+                <option selected>Select Manufactuer</option>
+                <option value="PFIZER">Pfizer</option>
+                <option value="MODERNA">Moderna</option>
+                <option value="JANSSEN">Johnson & Johnson</option>
+              </select>
             </div>
-            <div class="col-12">
-              <div class="form-check"> 
+
+            <div class="col-3">
+              <label for="dose" class="form-label"></label>
+              <select class="form-select" id="dose">
+                <option selected>Dose</option>
+                <option value='1'>First Dose</option>
+                <option value='2'>Secound Dose</option>
+              </select>
+            </div>
+          </form>
+
+          <form class ='row'>
+          <p>Select All That Apply</p>
+            <div class="col-6">
+              <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  Check me out
+                  Currently Taking Medication(s)
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Known Allergies
                 </label>
               </div>
             </div>
+
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Prior Vaccination Reaction
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Existing Condition(s)
+                </label>
+              </div>
+            </div>
+          </form>
+
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Predict</button>
             </div>
           </form>
 
