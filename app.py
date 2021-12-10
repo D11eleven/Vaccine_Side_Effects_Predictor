@@ -2,11 +2,11 @@ from flask import Flask, render_template, jsonify, request
 # from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
-from modelHelper import ModelHelper
+#from modelHelper import ModelHelper
 
 # Create an instance of Flask
 app = Flask(__name__)
-modelHelper = ModelHelper()
+#modelHelper = ModelHelper()
 
 # Route to render index.html template
 @app.route("/")
