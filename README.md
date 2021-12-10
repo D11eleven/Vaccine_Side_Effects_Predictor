@@ -147,6 +147,12 @@ Future Implications
 
   
  > The mind, in addition to medicine, has the power to turn the immune system around. -Jonas Salk  
+
+
+
+### **Medical Disclaimer**
+
+This site is for informational or educational purposes only, and does not substitute professional medical advice or consultations with healthcare professionals.
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
