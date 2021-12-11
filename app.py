@@ -1,8 +1,7 @@
 from flask import Flask, render_template, jsonify, request
-# from xgboost import XGBClassifier
 import pandas as pd
 import numpy as np
-#from modelHelper import ModelHelper
+from modelHelper import ModelHelper
 
 # Create an instance of Flask
 app = Flask(__name__)
@@ -61,9 +60,8 @@ def makePredictions():
     allergies = int(content["allergies"])
     vax_name = int(content["vax_name"])
     vax_dose = int(content["vax_dose"])
-    vax_site = int(content["vax_site"])
 
-    prediction = modelHelper.makePredictions(age_group, sex, other_meds, cur_ill, history, prior_vax, allergies, vax_name, vax_dose, vax_site)
+    prediction = ModelHelper.makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose)
     print(prediction)
     return(jsonify({"ok": True, "prediction": str(prediction)}))
 
