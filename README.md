@@ -161,7 +161,7 @@ Future Implications
 
 
 
-### **Medical Disclaimer**
+#### **Medical Disclaimer**
 
 This site is for informational or educational purposes only, and does not substitute professional medical advice or consultations with healthcare professionals.
   
