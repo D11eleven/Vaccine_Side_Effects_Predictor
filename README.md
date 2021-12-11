@@ -52,20 +52,9 @@ to determine possible side effects unique to each user.
 
 ## **Our Process**
       
-Perform ETL, create web based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
+Perform ETL, create a web-based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
       
-     * User Interface to return probability of side effects at user vaccine dose series 
-     * Age - #
-     * Gender - F/M
-     * Taking Other Medications - Y/N
-     * Current Illness - Y/N
-     * Pre-existing Conditions - Y/N
-     * Allergies to Medications, Food or Other Products - Y/N
-     * Previous Adverse reactions to Vaccines - Y/N
-     * Vaccine Manufacturer: Pfizer, Moderna, Janssen
-     * Dose Series: First Dose or Second Dose
- 
-
+    
 ### **Tools**
   
 <details> 
