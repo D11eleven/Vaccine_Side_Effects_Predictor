@@ -96,12 +96,20 @@ Perform ETL, create web based platform to gather user inputs and return side eff
 
 ## **Machine Learning Model**
   
-  * KNN to take in user input data and return symptoms categories and examples 
-  
-     
-
+  *  KNN to review symptoms based on user input selection and output a word cloud
+  * Logistic Regression Model, return rate of 90% accuracy 
+  * User Interface to return probability of side effects at user vaccine dose series 
+     * Age - #
+     * Gender - F/M
+     * Taking Other Medications - Y/N
+     * Current Illness - Y/N
+     * Pre-existing Conditions - Y/N
+     * Allergies to Medications, Food or Other Products - Y/N
+     * Previous Adverse reactions to Vaccines - Y/N
+     * Vaccine Manufacturer: Pfizer, Moderna, Janssen
+     * Dose Series: First Dose or Second Dose
  
- "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -140,7 +148,7 @@ Future Implications
 
 [VAERS](https://vaers.hhs.gov/)
   
-[Medicine.net](https://www.medicinenet.com/medterms-medical-dictionary/article.htm)
+[Merriam Webster](https://www.merriam-webster.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
