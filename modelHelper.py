@@ -6,7 +6,7 @@ class ModelHelper():
     def __init__(self):
         pass
 
-    def makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_site, vax_dose):
+    def makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose):
 
         features_np = ['OTHER_MEDS', 'HISTORY', 'PRIOR_VAX', 'ALLERGIES', 'F', 'M', 'JANSSEN', 'MODERNA', 'PFIZER',
                     'VAX_DOSE_SERIES_1', 'VAX_DOSE_SERIES_2', '18-25', '26-35', '36-45', '46-55', '56-65', '66-75', '76-85', '86-95',
@@ -34,16 +34,9 @@ class ModelHelper():
 
         print("input_pred", input_pred)
 
-        with open("knn_model2.sav", "rb") as f:
+        with open("final_regression_model.sav", "rb") as f:
             model = pickle.load(f)
         #     # print('hello')
-        
-        # filename = 'knn_model.sav'
-        # model = pickle.load(open(filename, 'rb'))
-
-        # X = np.array(input_pred)
-        # print(X)
-        # pred= model.predict(input_pred)
 
         pred = model.predict(input_pred)
         print(pred)
@@ -51,7 +44,7 @@ class ModelHelper():
         return pred
 
 if __name__ == "__main__":
-    results = ModelHelper.makePredictions('36-45','F',1, 1, 1, 1, 'PFIZER', 'LA', '2')
+    results = ModelHelper.makePredictions('36-45','F',1, 1, 1, 1, 'PFIZER', '2')
     print(results)
     print('test')
     
