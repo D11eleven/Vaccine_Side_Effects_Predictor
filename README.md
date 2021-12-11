@@ -88,6 +88,9 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
   * ETL 
       
     * Combined 3 datasets
+      * [Vaccinations](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSVAX.csv)
+      * [VAERS Symptoms](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv)
+      * [VAERS Data](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSDATA.csv)
     * Remove Non-Covid Vaccine Data 
     * Research symptoms and assigned to categorical groupings 
     * Features are vaccine manufacturer, dose series number, age, gender, preexisting medical conditions, prior vaccination related complications
