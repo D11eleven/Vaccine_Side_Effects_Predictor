@@ -38,7 +38,6 @@ def makePredictions():
     age_group = int(content["age_group"])
     sex = int(content["sex"])
     other_meds = int(content["other_meds"])
-    cur_ill = int(content["cur_ill"])
     history = int(content["history"])
     prior_vax = int(content["prior_vax"])
     allergies = int(content["allergies"])
