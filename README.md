@@ -51,33 +51,31 @@ to determine possible side effects unique to each user.
 
 
 ## **Our Process**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
+      
+Perform ETL, create web based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
 
 ### **Tools**
   
 <details> 
 <summary>Tools, Languages, & Libraries Utilized</summary>
-<li>Jupyter Notebook</li></ul>
+
 <li>Pandas</li></ul>
+<li>Python</li></ul> 
+<li>Pickle</li></ul>
+<li>Plotly</li></ul>
 <li>Matplotlib</li></ul>
+<li>Jupyter Notebook</li></ul>
 <li>VS Code</li></ul>
 <li>D3 JS</li></ul>
-<li>Plotly</li></ul>
 <li>HTML</li></ul>
 <li>CSS</li></ul>
-<li>Heroku</li></ul>
-<li>JavaScript</li></ul>
 <li>Flask</li></ul>
 <li>Themefisher</li></ul>
 <li>Bootstrap</li></ul>
-<li>Pickle</li></ul>
-      
+<li>Heroku</li></ul>
 </details>
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,15 +85,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## **Data Clean UP** 
   
   * ETL 
+      
+    * Combined 3 datasets
     * Remove Non-Covid Vaccine Data 
-    * Symptom categorical groupings 
-  
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    * Research symptoms and assigned to categorical groupings 
+    * Features are vaccine manufacturer, dose series number, age, gender, preexisting medical conditions, prior vaccination related complications
+      
+           
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## **Machine Learning Model**
   
   * KNN to take in user input data and return symptoms categories and examples 
+  
+     
+
  
  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
  
