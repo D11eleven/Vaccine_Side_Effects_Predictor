@@ -92,6 +92,17 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
     * Research symptoms and assigned to categorical groupings 
     * Features are vaccine manufacturer, dose series number, age, gender, preexisting medical conditions, prior vaccination related complications
       
+  * User Interface
+      
+      * Age - #
+      * Gender - F/M 
+      * Taking Other Medications - Y/N 
+      * Pre-existing Conditions - Y/N
+      * Allergies to Medications, Food or Other Products - Y/N
+      * Previous Adverse reactions to Vaccines - Y/N 
+      * Vaccine Type: Pfizer, Moderna, Janssen
+      * Dose Series: First Dose or Second Dose
+
            
 <p align="right">(<a href="#top">back to top</a>)</p>
 
