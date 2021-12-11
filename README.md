@@ -115,10 +115,12 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
 
 ## **Machine Learning Model**
   
-  * KNN to review symptoms based on user input selection and output a word cloud
-  * Logistic Regression Model, return rate of 90% accuracy 
+  * KNN to review and create list of associated side effect based on user input selections and output a word cloud of actual side effects
+  * Logistic Regression Model, return rate of 90% accuracy
  
   ![image](Resources/KNN_image_output.png)  
+      
+  ![image](Resources/model_train_test.png)
       
   ![image](Resources/HeatMap.png)
  
