@@ -51,29 +51,51 @@ class ModelHelper():
 
         pred = self.model.predict(input_pred)
 
-        # Return 50 closest symptoms for those nearest neighbors
+        # 5 people closest to user 1
         tree = KDTree(self.X)
-        dist, ind = tree.query([user_input], k=50)
+        dist, ind = tree.query([user_input], k=200)
 
         #convery ndarry to list 
         like_users = ind[0].tolist()
         print(like_users)  # indices of closest neighbors
 
-        # save nearest neighbors symptoms as list for wordcloud
-        get_symptoms = self.data_df['ASSIGNED_GROUP'].iloc[like_users].tolist()
-        symptom_array = np.array(get_symptoms)
-        nearest_symptoms = np.unique(symptom_array)
-        
-        #convert list to string and generate
-        unique_string=(" ").join(nearest_symptoms)
+        # save nearest 200 neighbors symptoms as list for wordcloud
+        predicted_symptoms = self.data_df['ASSIGNED_GROUP'].iloc[like_users]
+        predicted_symptoms = predicted_symptoms.value_counts()
+        predicted_symptoms.head()
 
-        return pred, unique_string
+        dirty_dict = predicted_symptoms.to_dict()
+
+        words = []
+        for key in dirty_dict:
+            x = {'x': key, 'value': dirty_dict[key]}
+            words.append(x)
+    
+        words = words[:20]
+
+        # # Return 50 closest symptoms for those nearest neighbors
+        # tree = KDTree(self.X)
+        # dist, ind = tree.query([user_input], k=50)
+
+        # #convery ndarry to list 
+        # like_users = ind[0].tolist()
+        # print(like_users)  # indices of closest neighbors
+
+        # # save nearest neighbors symptoms as list for wordcloud
+        # get_symptoms = self.data_df['ASSIGNED_GROUP'].iloc[like_users].tolist()
+        # symptom_array = np.array(get_symptoms)
+        # nearest_symptoms = np.unique(symptom_array)
+        
+        # #convert list to string and generate
+        # unique_string=(" ").join(nearest_symptoms)
+
+        return pred, words
 
 
 if __name__ == "__main__":
     mh = ModelHelper()
-    symptoms = mh.makePredictions('36-45','F',1, 1, 1, 1, 'PFIZER', '2')
-    print(symptoms)
-    print('test2')
+    results = mh.makePredictions('36-45','F',1, 1, 1, 1, 'PFIZER', '2')
+    print(results)
+    print('test3')
     
 
