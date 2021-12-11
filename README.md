@@ -68,9 +68,10 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
 <li>Jupyter Notebook</li></ul>
 <li>VS Code</li></ul>
 <li>D3 JS</li></ul>
+<li>Any Chart JS</li></ul>  
 <li>HTML</li></ul>
 <li>CSS</li></ul>
-<li>Flask</li></ul>
+<li>Flask</li></ul>   
 <li>Themefisher</li></ul>
 <li>Bootstrap</li></ul>
 <li>Heroku</li></ul>
