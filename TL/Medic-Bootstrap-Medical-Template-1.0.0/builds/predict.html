@@ -41,7 +41,7 @@ WEBSITE: https://themefisher.com
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
   <style>
-    html, body, #cloud {
+    html, body, #container {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -242,16 +242,44 @@ WEBSITE: https://themefisher.com
 
       <div class="col-6">
           <div class="section-title">
-            <h3>Top 20 Symptoms <span>Reported By People Most Like You</span></h3>
-            <p>Placeholder.</p>
+            <h3>Word Cloud <span>Goes Here</span></h3>
+            <p>Hopefully I can find some cool java lib to do this.</p>
           </div>
-          <div id="cloud"></div>
-            <script></script>
-          </div>
-      </div>  
+
+          <div id="container"></div>
+            <script>
+            </script>
+        </div>
     </div>
-</section>
+    
 <!-- End Section -->
+
+<!--team section-->
+<section class="team-section section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h3>Our Expert
+        <span>Doctors</span>
+      </h3>
+      <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo, rerum
+        <br>natus nobis deleniti doloremque minima odit voluptatibus ipsam animi?</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="team-member">
+          <img loading="lazy" src="images/team/doctor-2.jpg" alt="doctor" class="img-fluid">
+          <div class="contents text-center">
+            <h4>Dr. Robert Barrethion</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
+            <a href="appointment.html" class="btn btn-main">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End team section-->
 
 <!--footer-main-->
 <footer class="footer-main">
@@ -283,6 +311,12 @@ WEBSITE: https://themefisher.com
                 <i class="fas fa-phone" aria-hidden="true"></i>
                 <p>(88017) +123 4567</p>
               </li>
+            </ul>
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
             </ul>
           </div>
         </div>
@@ -319,6 +353,17 @@ WEBSITE: https://themefisher.com
       <div class="copyright-text">
         <p>&copy; Copyright 2021. Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
       </div>
+      <ul class="footer-bottom-link">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
   </div>
 </footer>

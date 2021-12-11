@@ -1,4 +1,6 @@
 
+
+
 <div id="top"></div>
 
 # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  COVID-19 VACCINE SIDE EFFECTS PREDICTOR
@@ -52,20 +54,9 @@ to determine possible side effects unique to each user.
 
 ## **Our Process**
       
-Perform ETL, create web based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
+Perform ETL, create a web-based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
       
-     * User Interface to return probability of side effects at user vaccine dose series 
-     * Age - #
-     * Gender - F/M
-     * Taking Other Medications - Y/N
-     * Current Illness - Y/N
-     * Pre-existing Conditions - Y/N
-     * Allergies to Medications, Food or Other Products - Y/N
-     * Previous Adverse reactions to Vaccines - Y/N
-     * Vaccine Manufacturer: Pfizer, Moderna, Janssen
-     * Dose Series: First Dose or Second Dose
- 
-
+    
 ### **Tools**
   
 <details> 
@@ -79,9 +70,11 @@ Perform ETL, create web based platform to gather user inputs and return side eff
 <li>Jupyter Notebook</li></ul>
 <li>VS Code</li></ul>
 <li>D3 JS</li></ul>
+<li>Seaborn JS</li></ul>
+<li>Any Chart JS</li></ul>  
 <li>HTML</li></ul>
 <li>CSS</li></ul>
-<li>Flask</li></ul>
+<li>Flask</li></ul>   
 <li>Themefisher</li></ul>
 <li>Bootstrap</li></ul>
 <li>Heroku</li></ul>
@@ -99,18 +92,37 @@ Perform ETL, create web based platform to gather user inputs and return side eff
   * ETL 
       
     * Combined 3 datasets
+      * [Vaccinations](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSVAX.csv)
+      * [VAERS Symptoms](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSSYMPTOMS.csv)
+      * [VAERS Data](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions?select=2021VAERSDATA.csv)
     * Remove Non-Covid Vaccine Data 
     * Research symptoms and assigned to categorical groupings 
     * Features are vaccine manufacturer, dose series number, age, gender, preexisting medical conditions, prior vaccination related complications
       
+  * User Interface
+      
+      * Age - #
+      * Gender - F/M 
+      * Taking Other Medications - Y/N 
+      * Pre-existing Conditions - Y/N
+      * Allergies to Medications, Food or Other Products - Y/N
+      * Previous Adverse reactions to Vaccines - Y/N 
+      * Vaccine Type: Pfizer, Moderna, Janssen
+      * Dose Series: First Dose or Second Dose
+
            
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## **Machine Learning Model**
   
-  * KNN to review symptoms based on user input selection and output a word cloud
-  * Logistic Regression Model, return rate of 90% accuracy 
+  * KNN to review and create list of associated side effect based on user input selections and output a word cloud of actual side effects
+  * Logistic Regression Model, return rate of 90% accuracy
  
+  ![image](Resources/KNN_image_output.png)  
+      
+  ![image](Resources/model_train_test.png)
+      
+  ![image](Resources/HeatMap.png)
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -161,9 +173,10 @@ Future Implications
 
 
 
-### **Medical Disclaimer**
+#### **Medical Disclaimer**
 
 This site is for informational or educational purposes only, and does not substitute professional medical advice or consultations with healthcare professionals.
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+>>>>>>> dbdd78cd225f77b8ed9211f8e2642b9ff28987e1
