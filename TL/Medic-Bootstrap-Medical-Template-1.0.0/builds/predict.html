@@ -37,7 +37,18 @@ WEBSITE: https://themefisher.com
   <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.css">
   <!-- timePicker -->
   <link rel="stylesheet" href="plugins/timePicker/timePicker.css">
-  
+  <!-- JS CLoud Chart -->
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+  <style>
+    html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  </style> 
+
   <!-- Stylesheets -->
   <link href="css/style.css" rel="stylesheet">
   
@@ -234,6 +245,10 @@ WEBSITE: https://themefisher.com
             <h3>Word Cloud <span>Goes Here</span></h3>
             <p>Hopefully I can find some cool java lib to do this.</p>
           </div>
+
+          <div id="container"></div>
+            <script>
+            </script>
         </div>
     </div>
     
@@ -388,7 +403,7 @@ WEBSITE: https://themefisher.com
 <script src="plugins/timePicker/timePicker.js" defer></script>
 
 <!-- script js -->
-<script src="js/script.js"></script>
+<script src="js/logic.js"></script>
 </body>
 
 </html>
