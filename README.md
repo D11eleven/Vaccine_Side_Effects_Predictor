@@ -44,8 +44,8 @@ the adverse events that may be associated vaccinations world wide, including the
 
 Support individuals to understand what side effects they may experience from Covid Vaccination based on reported side effects from previous vaccine 
 addministration.  Our site uses machine learning to decipherthe input from user shared data that includes vaccine manufacturer, age, prior known allergies, 
-medical history and gender.  The machine learning model predicts the possible side effects in the categories of Mild, Moderate, or Severe using the KNN model to
-determine possible side effects unique to each user. 
+medical history and gender.  The machine learning model predicts the possible side effects in the categories of Mild, Moderate, or Severe using the KNN model 
+to determine possible side effects unique to each user. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -55,30 +55,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### **Tools**
   
-* Machine Learning Models/KNN
-* Python
-* Pandas
-* Flask
-* WordCloud
-* Heroku
-* Matplotlib/Plotly/D3/Bootstrap
-* Jupyter Notebook
-* Tableau
-  
-<!-- Tools -->
-<details>
-  <summary>Tools</summary>
-    <li><a href="# Machine_Learning Models/KNN ">Machine_Learning Models/KNN </a></li>
-    <li><a href="# Python ">Python</a></li>
-    <li><a href="# Pandas ">Pandas</a></li>
-    <li><a href="# Flask ">Flask</a></li>
-    <li><a href="# Wordcloud ">Wordcloud</a></li>
-    <li><a href="# Matplotlib/Plotly/DS3/Bootstrap ">Matplotlib/Plotly/DS3/Bootstrap</a></li>
-    <li><a href="# Tableau ">Tableau</a></li>
-    <li><a href="# Jupyter_Notebook ">Jupyter Notebook</a></li>
-  </ol>
+<details> 
+<summary>Tools, Languages, & Libraries Utilized</summary>
+<li>Jupyter Notebook</li></ul>
+<li>Pandas</li></ul>
+<li>Matplotlib</li></ul>
+<li>VS Code</li></ul>
+<li>D3 JS</li></ul>
+<li>Plotly</li></ul>
+<li>HTML</li></ul>
+<li>CSS</li></ul>
+<li>Heroku</li></ul>
+<li>JavaScript</li></ul>
+<li>Flask</li></ul>
+<li>Themefisher</li></ul>
+<li>Bootstrap</li></ul>
+<li>Pickle</li></ul>
+      
 </details>
-  
 
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
@@ -113,6 +107,10 @@ Challenges
 
 As data scientists, we have limited medical expertise and many medical symptom terms had to be researched, resulting in the subjective assignment of category
 groups and the classification of severity of symptoms as Mild, Moderate, Severe. 
+
+Initially the KNN was returning an imbalance of “mild” categories based on the return of user input data.  We then changed our model to the logistic regression 
+model. 
+
 
 Future Implications
 
