@@ -2,9 +2,11 @@ $(document).ready(function() {
     console.log("Page Loaded");
 
     $("#filter").click(function() {
+        // alert("button clicked!");
         makePredictions();
     });
 });
+
 
 function makePredictions() {
     var age_group = $("#age_group").val();
@@ -15,7 +17,7 @@ function makePredictions() {
     var allergies = $("#allergies").val();
     var vax_name = $("#vax_name").val();
     var vax_dose = $("#vax_dose").val();
- 
+    console.log("hello")
     // create the payload
     var payload = {
         "age_group": age_group,
@@ -27,6 +29,9 @@ function makePredictions() {
         "vax_name": vax_name,
         "vax_dose": vax_dose
     }
+    console.log("hello123")
+
+    console.log(payload)
 
     // Perform a POST request to the query URL
     $.ajax({
@@ -36,17 +41,22 @@ function makePredictions() {
         data: JSON.stringify({ "data": payload }),
         success: function(returnedData) {
             // print it
-            console.log(returnedData);
+            console.log(returnedData.return);
 
-            var pred = JSON.parse(returnedData[0])
-            var words = JSON.parse(returnedData[1])
-
+            var pred = returnedData.return[20].prediction
+            // var words = returnedData[]
             console.log(pred)
-            console.log(words)
 
-            $.each(words, function(index, item) { 
-                console.log("Symptom: " + item["key"]);
-                console.log("Class: " + item["category"]);
+            returnedData.return.pop();
+
+            $("#output").text(pred);
+
+            // console.log(pred)
+            // console.log(words)
+
+            $.each(returnedData.return, function(index, item) { 
+                console.log("Symptom: " + item["x"]);
+                console.log("Count: " + item["value"]);
             })
         
         },

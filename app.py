@@ -33,20 +33,54 @@ def dashboard():
 def makePredictions():
     print('postrequest')
     content = request.json["data"]
-
+    print(content)
     # parse
-    age_group = int(content["age_group"])
-    sex = int(content["sex"])
+    
+    age_group = content["age_group"]
+    sex = content["sex"]
     other_meds = int(content["other_meds"])
     history = int(content["history"])
     prior_vax = int(content["prior_vax"])
     allergies = int(content["allergies"])
-    vax_name = int(content["vax_name"])
-    vax_dose = int(content["vax_dose"])
+    vax_name = content["vax_name"]
+    vax_dose = content["vax_dose"]
 
-    prediction = ModelHelper.makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose)
-    print(prediction)
-    return(jsonify({"ok": True, "prediction": str(prediction)}))
+    predict = ModelHelper.makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose)
+    # print(type(predict))
+    # print(predict)
+    pred = predict[0]
+    if pred[0] == 0:
+        severity = "Mild"
+    elif pred[0] == 1:
+        severity = "Moderate"
+    else:
+        severity =  "Severe"
+
+    print(severity)
+
+    # print(type(pred))
+    # prediction = dict(predict)
+
+    word = predict[1]
+    print(word[0])
+    print(word[1])
+    print(type(word))
+
+    pred_dict = {"prediction": severity}
+
+    word.append(pred_dict)
+    
+    for i in word:
+        print(i)
+
+    return_dict = {"return": word}
+    
+    # print(pred_dict)
+
+
+    # return(jsonify({"ok": True, "prediction": predict}))
+
+    return return_dict
 
 @app.after_request
 def add_header(r):

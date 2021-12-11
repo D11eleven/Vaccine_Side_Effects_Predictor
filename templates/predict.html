@@ -22,21 +22,21 @@ WEBSITE: https://themefisher.com
   
   <!-- ** Plugins Needed for the Project ** -->
   <!-- bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="static/js/plugins/bootstrap/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="static/js/plugins/slick/slick.css">
+  <link rel="stylesheet" href="static/js/plugins/slick/slick-theme.css">
   <!-- FancyBox -->
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="static/js/plugins/fancybox/jquery.fancybox.min.css">
   <!-- fontawesome -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="static/js/plugins/fontawesome/css/all.min.css">
   <!-- animate.css -->
-  <link rel="stylesheet" href="plugins/animation/animate.min.css">
+  <link rel="stylesheet" href="static/js/plugins/animation/animate.min.css">
   <!-- jquery-ui -->
-  <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.css">
+  <link rel="stylesheet" href="static/js/plugins/jquery-ui/jquery-ui.css">
   <!-- timePicker -->
-  <link rel="stylesheet" href="plugins/timePicker/timePicker.css">
+  <link rel="stylesheet" href="static/js/plugins/timePicker/timePicker.css">
   <!-- JS CLoud Chart -->
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
@@ -50,10 +50,10 @@ WEBSITE: https://themefisher.com
   </style> 
 
   <!-- Stylesheets -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="static/css/style.css" rel="stylesheet">
   
   <!--Favicon-->
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="static/images/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -79,7 +79,7 @@ WEBSITE: https://themefisher.com
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
           <a href="index.html">
-            <img loading="lazy" class="img-fluid" src="images/logo.png" alt="logo">
+            <img loading="lazy" class="img-fluid" src="static/images/logo.png" alt="logo">
           </a>
         </div>
       </div>
@@ -120,7 +120,7 @@ WEBSITE: https://themefisher.com
 <!--End Main Header -->
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(images/background/3.jpg);">
+<section class="page-title text-center" style="background-image:url(static/images/background/3.jpg);">
     <div class="container">
         <div class="title-text">
             <h1>Side Effect Predictor</h1>
@@ -149,18 +149,18 @@ WEBSITE: https://themefisher.com
           <form class="row">
             <div class="col-6">
               <!-- age -->
-              <label for="age" class="form-label"></label>
-              <select class="form-select" id="age" required>
-                <option selected>Select Age</option>
-                <option>18-25</option>
-                <option>26-35</option>
-                <option>36-45</option>
-                <option>46-55</option>
-                <option>56-65</option>
-                <option>66-75</option>
-                <option>76-85</option>
-                <option>86-95</option>
-                <option>96+</option>
+              <label for="age_group" class="form-label"></label>
+              <select class="form-select" id="age_group" required>
+                <option selected>Select Age Group</option>
+                                                <option value="18-25">18-25</option>
+                                                <option value="26-35">26-35</option>
+                                                <option value="36-45">36-45</option>
+                                                <option value="46-55">46-55</option>
+                                                <option value="56-65">56-65</option>
+                                                <option value="66-75">66-75</option>
+                                                <option value="76-85">76-85</option>
+                                                <option value="86-95">86-95</option>
+                                                <option value="96 +">95 +</option>
               </select>
             </div>
 
@@ -169,7 +169,7 @@ WEBSITE: https://themefisher.com
               <label for="sex" class="form-label"></label>
               <select class="form-select" id="sex" required>
                 <option selected>Select Sex</option>
-                <option value='M'>Male</option>
+                <option selected value='M'>Male</option>
                 <option value='F'>Female</option>
               </select>
             </div>
@@ -179,9 +179,9 @@ WEBSITE: https://themefisher.com
           <!-- Vaccine Info -->
           <form class="row">
             <div class="col-9">
-              <label for="manufac" class="form-label"></label>
-              <select class="form-select" id="manufac" required>
-                <option selected>Select Manufactuer</option>
+              <label for="vax_name" class="form-label"></label>
+              <select class="form-select" id="vax_name" required>
+                <option selected>Select Vaccine Name</option>
                 <option value="PFIZER">Pfizer</option>
                 <option value="MODERNA">Moderna</option>
                 <option value="JANSSEN">Johnson & Johnson</option>
@@ -189,11 +189,47 @@ WEBSITE: https://themefisher.com
             </div>
 
             <div class="col-3">
-              <label for="dose" class="form-label"></label>
-              <select class="form-select" id="dose">
+              <label for="vax_dose" class="form-label"></label>
+              <select class="form-select" id="vax_dose">
                 <option selected>Dose</option>
-                <option value='1'>First Dose</option>
-                <option value='2'>Secound Dose</option>
+                <option value='1'>First</option>
+                <option value='2'>Secound</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="other_meds" class="form-label"></label>
+              <select class="form-select" id="other_meds">
+                <option selected>Other Medications</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="history" class="form-label"></label>
+              <select class="form-select" id="history">
+                <option selected>History</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="prior_vax" class="form-label"></label>
+              <select class="form-select" id="prior_vax">
+                <option selected>Prior Vaccination Reaction</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="allergies" class="form-label"></label>
+              <select class="form-select" id="allergies">
+                <option selected>Allergies</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
               </select>
             </div>
           </form>
@@ -233,12 +269,30 @@ WEBSITE: https://themefisher.com
             </div>
           </form>
 
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Predict</button>
+          <div class="row">                         
+            <div class="col-md-12">
+                <div class="input-field">
+                    <span class="btn-border">
+                      <button type="button" class="btn btn-primary" id="filter">Make Prediction!</button>
+                    </span>
+                </div>
             </div>
+        </div>
           </form>
 
         </div>
+
+        <div class="col-md-7">
+          <div class="page-title2 text-center">
+              <h2>Predicted Severity<span class="primary"></span></h2></div>
+          <div id="pred"></div>
+          <div id="words"></div>
+          <div id="output"></div>
+          
+      </div>
+
+
+
 
       <div class="col-6">
           <div class="section-title">
@@ -263,7 +317,7 @@ WEBSITE: https://themefisher.com
             <div class="footer-logo">
               <figure>
                 <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="medic">
+                  <img loading="lazy" class="img-fluid" src="static/images/logo-2.png" alt="medic">
                 </a>
               </figure>
             </div>
@@ -340,25 +394,26 @@ WEBSITE: https://themefisher.com
 
 
 <!-- jquery -->
-<script src="plugins/jquery.min.js"></script>
+<script src="static/js/plugins/jquery.min.js"></script>
 <!-- bootstrap -->
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="static/js/plugins/bootstrap/bootstrap.min.js"></script>
 <!-- Slick Slider -->
-<script src="plugins/slick/slick.min.js"></script>
-<script src="plugins/slick/slick-animation.min.js"></script>
+<script src="static/js/plugins/slick/slick.min.js"></script>
+<script src="static/js/plugins/slick/slick-animation.min.js"></script>
 <!-- FancyBox -->
-<script src="plugins/fancybox/jquery.fancybox.min.js" defer></script>
+<script src="static/js/plugins/fancybox/jquery.fancybox.min.js" defer></script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
-<script src="plugins/google-map/gmap.js" defer></script>
+<script src="static/js/plugins/google-map/gmap.js" defer></script>
 
 <!-- jquery-ui -->
-<script src="plugins/jquery-ui/jquery-ui.js" defer></script>
+<script src="static/js/plugins/jquery-ui/jquery-ui.js" defer></script>
 <!-- timePicker -->
-<script src="plugins/timePicker/timePicker.js" defer></script>
+<script src="static/js/plugins/timePicker/timePicker.js" defer></script>
 
 <!-- script js -->
-<script src="js/logic.js"></script>
+<script src="static/js/logic.js"></script>
+<script src="static/js/class.js"></script>
 </body>
 
 </html>

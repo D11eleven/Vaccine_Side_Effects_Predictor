@@ -6,18 +6,19 @@ from sklearn.neighbors import KDTree
 class ModelHelper():
     def __init__(self):
 
-        with open("final_regression_model.sav", "rb") as f:
-            self.model = pickle.load(f)
-                
-        # Data File
-        data = "Resources/FINAL_CLEAN_FILE.csv"
-        # read to dataframe
-        self.data_df = pd.read_csv(data)
+        pass
 
-        # Create Features by dropping columns we do not need (or already have in feature format)
-        self.X = self.data_df.drop(['VAERS_ID', 'SYMPTOM','ASSIGNED_GROUP','SEVERITY_LEVEL','HOSPITAL', 'DIED', 'L_THREAT', 'CUR_ILL', 'VAX_SITE_LA', 'VAX_SITE_RA', 'AGE_YRS', 'AGE_GROUP'], axis=1)
-
-    def makePredictions(self, age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose):
+    def makePredictions(age_group, sex, other_meds, history, prior_vax, allergies, vax_name, vax_dose):
+        # print(self)
+        print(age_group)
+        print(sex)
+        print(other_meds)
+        print(history)
+        print(prior_vax)
+        print(allergies)
+        print(vax_name)
+        print(vax_dose)
+        # print(temp)
 
         features_np = ['OTHER_MEDS', 'HISTORY', 'PRIOR_VAX', 'ALLERGIES', 'F', 'M', 'JANSSEN', 'MODERNA', 'PFIZER',
                     'VAX_DOSE_SERIES_1', 'VAX_DOSE_SERIES_2', '18-25', '26-35', '36-45', '46-55', '56-65', '66-75', '76-85', '86-95',
@@ -49,10 +50,23 @@ class ModelHelper():
         #     model = pickle.load(f)
         # #     # print('hello')
 
-        pred = self.model.predict(input_pred)
+        with open("final_regression_model.sav", "rb") as f:
+            model = pickle.load(f)
+        
+        # Data File
+        data = "Resources/FINAL_CLEAN_FILE.csv"
+        # read to dataframe
+        data_df = pd.read_csv(data)
+
+        # Create Features by dropping columns we do not need (or already have in feature format)
+        X = data_df.drop(['VAERS_ID', 'SYMPTOM','ASSIGNED_GROUP','SEVERITY_LEVEL','HOSPITAL', 'DIED', 'L_THREAT', 'CUR_ILL', 'VAX_SITE_LA', 'VAX_SITE_RA', 'AGE_YRS', 'AGE_GROUP'], axis=1)
+
+        print(X.columns)
+
+        pred = model.predict(input_pred)
 
         # 5 people closest to user 1
-        tree = KDTree(self.X)
+        tree = KDTree(X)
         dist, ind = tree.query([user_input], k=200)
 
         #convery ndarry to list 
@@ -60,7 +74,7 @@ class ModelHelper():
         print(like_users)  # indices of closest neighbors
 
         # save nearest 200 neighbors symptoms as list for wordcloud
-        predicted_symptoms = self.data_df['ASSIGNED_GROUP'].iloc[like_users]
+        predicted_symptoms = data_df['ASSIGNED_GROUP'].iloc[like_users]
         predicted_symptoms = predicted_symptoms.value_counts()
         predicted_symptoms.head()
 
