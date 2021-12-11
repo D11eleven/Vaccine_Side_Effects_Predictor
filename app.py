@@ -5,7 +5,7 @@ from modelHelper import ModelHelper
 
 # Create an instance of Flask
 app = Flask(__name__)
-#modelHelper = ModelHelper()
+
 
 # Route to render index.html template
 @app.route("/")
