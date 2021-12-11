@@ -6,44 +6,28 @@ from modelHelper import ModelHelper
 # Create an instance of Flask
 app = Flask(__name__)
 
-
 # Route to render index.html template
 @app.route("/")
 def home():
     # Return template and data
     return render_template("index.html")
 
-@app.route("/about")
+@app.route("/predict")
 def about():
     # Return template and data
-    return render_template("about.html")
+    return render_template("predict.html")
 
-@app.route("/side-effects")
+@app.route("/visualizations")
 def effects():
     # Return template and data
     #change this to dictionary
     #call function
-    return render_template("side-effects.html")
+    return render_template("viz-1.html")
 
-@app.route("/dashboard")
+@app.route("/team")
 def dashboard():
     # Return template and data
-    return render_template("dashboard.html")
-
-@app.route("/facts")
-def facts():
-    # Return template and data
-    return render_template("facts.html")
-
-@app.route("/data")
-def data():
-    # Return template and data
-    return render_template("data.html")
-
-@app.route("/sources")
-def sources():
-    # Return template and data
-    return render_template("sources.html")
+    return render_template("team.html")
 
 @app.route("/makePredictions", methods=["POST"])
 def makePredictions():
