@@ -45,16 +45,16 @@ the adverse events that may be associated vaccinations world wide, including the
 ## **Inspiration and Motivation**
 
 Support individuals to understand what side effects they may experience from Covid Vaccination based on reported side effects from previous vaccine 
-addministration.  Our site uses machine learning to decipherthe input from user shared data that includes vaccine manufacturer, age, prior known allergies, 
-medical history and gender.  The machine learning model predicts the possible side effects in the categories of Mild, Moderate, or Severe using the KNN model 
-to determine possible side effects unique to each user. 
+administrations.  Our site uses machine learning to decipher the input from user shared data that includes vaccine manufacturer, age, prior known allergies, 
+medical history and gender.  The machine learning model predicts the possible side effects in the categories of "Mild", "Moderate", or "Severe" using the Logistic Regression model and the KNN model to determine possible side effects unique to each user. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## **Our Process**
       
-Perform ETL, create a web-based platform to gather user inputs and return side effects they may experiece. On output user can further define symptoms that may be associated with their inputs. 
+Perform ETL, create a web-based platform to gather user inputs and return side effects they may experiece. On output a user can further define medical terms  
+and learn about specific medical terminology associated with their predicted side effects. 
       
     
 ### **Tools**
@@ -141,14 +141,14 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
 
 Challenges
 
-As data scientists, we have limited medical expertise and many medical symptom terms had to be researched, resulting in the subjective assignment of category
-groups and the classification of severity of symptoms as Mild, Moderate, Severe. 
-
-Model selection, initially the KNN was returning an imbalance of “mild” categories based on the return of user input data which supports vaccine safety. We 
-kept the KNN model to provide side effects for the user interface and our outputs for the world cloud. It was further determined to use the Logistic Regression 
-model due to process the the large amount of data to esure the correct categorical outputs. 
+* As data scientists, we have limited medical expertise and many medical symptom terms had to be researched, resulting in the subjective assignment of category
+  groups and the classification of severity of side effects. 
+      
+* Model selection, initially the KNN was returning an imbalance of “mild” categories based on the return of user input data which supports vaccine safety. We 
+  kept the KNN model to provide side effects for the user interface and our outputs for the world cloud. It was further determined to use the Logistic 
+  Regression model due to the large amount of datasets gathered to ensure the correct categorical outputs for either "Mild", "Moderate" or "Severe."
      
-Dataset for Covid side effects only from 12/21 to 3/21
+* Dataset for Covid side effects only from 12/21 to 3/21
 
 Future Implications
 
@@ -192,4 +192,4 @@ Future Implications
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
->>>>>>> dbdd78cd225f77b8ed9211f8e2642b9ff28987e1
+
