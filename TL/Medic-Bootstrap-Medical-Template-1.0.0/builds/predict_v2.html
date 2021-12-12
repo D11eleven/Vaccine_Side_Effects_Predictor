@@ -1,0 +1,293 @@
+<!-- 
+PROJECT: Medic | Medical HTML Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+WEBSITE: https://themefisher.com
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>Medic | Medical HTML Template</title>
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Medical HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Medical HTML Template v1.0">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animation/animate.min.css">
+  <!-- jquery-ui -->
+  <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.css">
+  <!-- timePicker -->
+  <link rel="stylesheet" href="plugins/timePicker/timePicker.css">
+  <!-- JS CLoud Chart -->
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+
+  <style>
+    #cloud {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;}
+  </style> 
+
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+
+<body>
+  <!-- <div class="page-wrapper"> -->
+
+    <!--header top-->
+    <div class="header-top">
+      <div class="container">
+        <div class="row align-items-center">
+        </div>
+      </div>
+    </div>
+    <!--header top-->
+
+    <!--Main Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="predict.html">Predictor</a>
+            </li>
+            <li class="nav-item @@service">
+              <a class="nav-link" href="viz-1.html">Viz 1</a>
+            </li>
+            <li class="nav-item @@gallery">
+              <a class="nav-link" href="viz-2.html">Viz 2</a>
+            </li>
+            <li class="nav-item @@team">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End Main Header -->
+
+    <!--Page Title-->
+    <section class="page-title text-center" style="background-image:url(images/background/3.jpg);">
+      <div class="container">
+        <div class="title-text">
+          <h1>Side Effect Predictor</h1>
+          <ul class="title-menu clearfix">
+            <li>
+              <a href="index.html">home &nbsp;/</a>
+            </li>
+            <li>Side Effect Predictor</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- Section -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="section-title">
+              <h3>Tell Us <span>About Yourself</span></h3>
+              <p>Don't worry, we don't store your information. We haven't figured that out yet.</p>
+            </div>
+
+            <!-- Demographic Info -->
+            <form class="row">
+              <div class="col-6">
+                <!-- age -->
+                <label for="age" class="form-label"></label>
+                <select class="form-select" id="age" required>
+                  <option selected>Select Age</option>
+                  <option>18-25</option>
+                  <option>26-35</option>
+                  <option>36-45</option>
+                  <option>46-55</option>
+                  <option>56-65</option>
+                  <option>66-75</option>
+                  <option>76-85</option>
+                  <option>86-95</option>
+                  <option>96+</option>
+                </select>
+              </div>
+
+              <div class="col-6">
+                <!-- sex -->
+                <label for="sex" class="form-label"></label>
+                <select class="form-select" id="sex" required>
+                  <option selected>Select Sex</option>
+                  <option value='M'>Male</option>
+                  <option value='F'>Female</option>
+                </select>
+              </div>
+
+            </form>
+
+            <!-- Vaccine Info -->
+            <form class="row">
+              <div class="col-9">
+                <label for="manufac" class="form-label"></label>
+                <select class="form-select" id="manufac" required>
+                  <option selected>Select Manufactuer</option>
+                  <option value="PFIZER">Pfizer</option>
+                  <option value="MODERNA">Moderna</option>
+                  <option value="JANSSEN">Johnson & Johnson</option>
+                </select>
+              </div>
+
+              <div class="col-3">
+                <label for="dose" class="form-label"></label>
+                <select class="form-select" id="dose">
+                  <option selected>Dose</option>
+                  <option value='1'>First Dose</option>
+                  <option value='2'>Secound Dose</option>
+                </select>
+              </div>
+            </form>
+
+            <!-- check boxes -->
+            <form class='row'>
+              <p>Select All That Apply</p>
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Currently Taking Medication(s)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Known Allergies
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Prior Vaccination Reaction
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Existing Condition(s)
+                  </label>
+                </div>
+              </div>
+            </form>
+
+            <!-- predict button -->
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Predict</button>
+            </div>
+            </form>
+
+          </div>
+
+          <!-- word cloud -->
+          <div class="col-6">
+            <div class="section-title">
+              <h3>Symptoms <span>Reported By People Most Like You</span></h3>
+              <p>Placeholder.</p>
+            </div>
+            <div id="cloud">
+              <script></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+
+    <!--footer-main-->
+    <footer class="footer">
+      <div class="footer-bottom">
+        <div class="container clearfix">
+          <div class="copyright-text">
+            <p>&copy; Copyright 2021. Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End footer-main-->
+
+    <!-- scroll-to-top -->
+    <div id="back-to-top" class="back-to-top">
+      <i class="fa fa-angle-up"></i>
+    </div>
+
+  <!-- </div> -->
+  <!--End pagewrapper-->
+
+
+  <!--Scroll to top-->
+  <div class="scroll-to-top scroll-to-target" data-target=".header-top">
+    <span class="icon fa fa-angle-up"></span>
+  </div>
+
+
+  <!-- jquery -->
+  <script src="plugins/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <!-- FancyBox -->
+  <script src="plugins/fancybox/jquery.fancybox.min.js" defer></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+  <script src="plugins/google-map/gmap.js" defer></script>
+
+  <!-- jquery-ui -->
+  <script src="plugins/jquery-ui/jquery-ui.js" defer></script>
+  <!-- timePicker -->
+  <script src="plugins/timePicker/timePicker.js" defer></script>
+
+  <!-- script js -->
+  <script src="js/logic.js"></script>
+</body>
+
+</html>
