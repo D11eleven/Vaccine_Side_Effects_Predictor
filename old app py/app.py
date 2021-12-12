@@ -22,7 +22,7 @@ def effects():
     # Return template and data
     #change this to dictionary
     #call function
-    return render_template("explorer.html")
+    return render_template("viz-1.html")
 
 @app.route("/team")
 def dashboard():

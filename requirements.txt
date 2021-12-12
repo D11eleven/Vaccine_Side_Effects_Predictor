@@ -1,4 +1,4 @@
-certifi
+pythoncertifi
 click
 colorama
 cycler
