@@ -123,6 +123,17 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
   ![image](Resources/model_train_test.png)
       
   ![image](Resources/HeatMap.png)
+      
+      
+ ## **Website**
+      
+   * Heroku app to deploy
+   * User interface 
+   * Tableau to further review and possible side effect outcomes
+   * Word cloud was linked to a dictionary for users to understand unfamiliar medical terms for personalized predicted side effects
+   
+ 
+      
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,9 +144,11 @@ Challenges
 As data scientists, we have limited medical expertise and many medical symptom terms had to be researched, resulting in the subjective assignment of category
 groups and the classification of severity of symptoms as Mild, Moderate, Severe. 
 
-Initially the KNN was returning an imbalance of “mild” categories based on the return of user input data.  We then changed our model to the logistic regression 
-model. 
-
+Model selection, initially the KNN was returning an imbalance of “mild” categories based on the return of user input data which supports vaccine safety. We 
+kept the KNN model to provide side effects for the user interface and our outputs for the world cloud. It was further determined to use the Logistic Regression 
+model due to process the the large amount of data to esure the correct categorical outputs. 
+     
+Dataset for Covid side effects only from 12/21 to 3/21
 
 Future Implications
 
@@ -175,7 +188,7 @@ Future Implications
 
 #### **Medical Disclaimer**
 
-This site is for informational or educational purposes only, and does not substitute professional medical advice or consultations with healthcare professionals.
+###### This site is for informational or educational purposes only, and does not substitute professional medical advice or consultations with healthcare professionals.
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
