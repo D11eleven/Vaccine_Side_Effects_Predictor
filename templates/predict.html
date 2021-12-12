@@ -22,6 +22,7 @@ WEBSITE: https://themefisher.com
   
   <!-- ** Plugins Needed for the Project ** -->
   <!-- bootstrap -->
+<<<<<<< HEAD
   <link rel="stylesheet" href="../static/plugins/bootstrap/bootstrap.min.css">
   <!-- Slick Carousel -->
   <link rel="stylesheet" href="../staticplugins/slick/slick.css">
@@ -37,12 +38,53 @@ WEBSITE: https://themefisher.com
   <link rel="stylesheet" href="../staticplugins/jquery-ui/jquery-ui.css">
   <!-- timePicker -->
   <link rel="stylesheet" href="../static/plugins/timePicker/timePicker.css">
+=======
+<<<<<<< HEAD
+  <link rel="stylesheet" href="static/js/plugins/bootstrap/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+=======
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="static/js/plugins/slick/slick.css">
+  <link rel="stylesheet" href="static/js/plugins/slick/slick-theme.css">
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="static/js/plugins/fancybox/jquery.fancybox.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="static/js/plugins/fontawesome/css/all.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="static/js/plugins/animation/animate.min.css">
+  <!-- jquery-ui -->
+  <link rel="stylesheet" href="static/js/plugins/jquery-ui/jquery-ui.css">
+  <!-- timePicker -->
+<<<<<<< HEAD
+  <link rel="stylesheet" href="static/js/plugins/timePicker/timePicker.css">
+  <!-- JS CLoud Chart -->
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+  <style>
+    html, body, #cloud {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+  </style> 
+
+=======
+  <link rel="stylesheet" href="plugins/timePicker/timePicker.css">
+>>>>>>> 5c40424e7963091086b5147bd9938b3758fe269e
   
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
   <!-- Stylesheets -->
+<<<<<<< HEAD
   <link href="../staticcss/style.css" rel="stylesheet">
+=======
+  <link href="static/css/style.css" rel="stylesheet">
+>>>>>>> 5c40424e7963091086b5147bd9938b3758fe269e
   
   <!--Favicon-->
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="static/images/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -104,7 +146,7 @@ WEBSITE: https://themefisher.com
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
           <a href="index.html">
-            <img loading="lazy" class="img-fluid" src="images/logo.png" alt="logo">
+            <img loading="lazy" class="img-fluid" src="static/images/logo.png" alt="logo">
           </a>
         </div>
       </div>
@@ -172,7 +214,7 @@ WEBSITE: https://themefisher.com
 <!--End Main Header -->
 
 <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(images/background/3.jpg);">
+<section class="page-title text-center" style="background-image:url(static/images/background/3.jpg);">
     <div class="container">
         <div class="title-text">
             <h1>appointment</h1>
@@ -196,6 +238,106 @@ WEBSITE: https://themefisher.com
           <div class="section-title">
             <h3>Your <span>Information</span></h3>
           </div>
+<<<<<<< HEAD
+
+          <!-- Demographic Info -->
+          <form class="row">
+            <div class="col-6">
+              <!-- age -->
+              <label for="age_group" class="form-label"></label>
+              <select class="form-select" id="age_group" required>
+                <option selected>Select Age Group</option>
+                                                <option value="18-25">18-25</option>
+                                                <option value="26-35">26-35</option>
+                                                <option value="36-45">36-45</option>
+                                                <option value="46-55">46-55</option>
+                                                <option value="56-65">56-65</option>
+                                                <option value="66-75">66-75</option>
+                                                <option value="76-85">76-85</option>
+                                                <option value="86-95">86-95</option>
+                                                <option value="96 +">95 +</option>
+              </select>
+            </div>
+
+            <div class="col-6">
+              <!-- sex -->
+              <label for="sex" class="form-label"></label>
+              <select class="form-select" id="sex" required>
+                <option selected>Select Sex</option>
+                <option selected value='M'>Male</option>
+                <option value='F'>Female</option>
+              </select>
+            </div>
+
+          </form>
+ 
+          <!-- Vaccine Info -->
+          <form class="row">
+            <div class="col-9">
+              <label for="vax_name" class="form-label"></label>
+              <select class="form-select" id="vax_name" required>
+                <option selected>Select Vaccine Name</option>
+                <option value="PFIZER">Pfizer</option>
+                <option value="MODERNA">Moderna</option>
+                <option value="JANSSEN">Johnson & Johnson</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="vax_dose" class="form-label"></label>
+              <select class="form-select" id="vax_dose">
+                <option selected>Dose</option>
+                <option value='1'>First</option>
+                <option value='2'>Secound</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="other_meds" class="form-label"></label>
+              <select class="form-select" id="other_meds">
+                <option selected>Other Medications</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="history" class="form-label"></label>
+              <select class="form-select" id="history">
+                <option selected>History</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="prior_vax" class="form-label"></label>
+              <select class="form-select" id="prior_vax">
+                <option selected>Prior Vaccination Reaction</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+
+            <div class="col-3">
+              <label for="allergies" class="form-label"></label>
+              <select class="form-select" id="allergies">
+                <option selected>Allergies</option>
+                <option value='0'>No</option>
+                <option value='1'>Yes</option>
+              </select>
+            </div>
+          </form>
+
+          <form class ='row'>
+          <p>Select All That Apply</p>
+            <div class="col-6">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Currently Taking Medication(s)
+                </label>
+=======
           <form name="contact_form" class="default-form contact-form" action="!#" method="post">
             <div class="row">
               <div class="col-md-6">
@@ -216,6 +358,7 @@ WEBSITE: https://themefisher.com
                     <option>Johnson&Johnson</option>
                   </select>
                 </div>
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
               </div>
               <div class="col-md-6">
                 <div class="form-group">
@@ -243,6 +386,21 @@ WEBSITE: https://themefisher.com
               </div>
             </div>
           </form>
+<<<<<<< HEAD
+
+          <div class="row">                         
+            <div class="col-md-12">
+                <div class="input-field">
+                    <span class="btn-border">
+                      <button type="button" class="btn btn-primary" id="filter">Make Prediction!</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+          </form>
+
+=======
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
         </div>
       </div>
       <div class="col-lg-6 mb-4 mb-lg-0 order-0 order-lg-1">
@@ -257,6 +415,27 @@ WEBSITE: https://themefisher.com
 </section>
 <!-- End Section -->
 
+<<<<<<< HEAD
+        <div class="col-md-7">
+          <div class="page-title2 text-center">
+              <h2>Predicted Severity<span class="primary"></span></h2></div>
+          <div id="pred"></div>
+          <div id="words"></div>
+          <div id="output"></div>
+          
+      </div>
+
+
+
+
+      <div class="col-6">
+          <div class="section-title">
+            <h3>Top 20 Symptoms <span>Reported By People Most Like You</span></h3>
+            <p>Placeholder.</p>
+          </div>
+          <div id="cloud"></div>
+            <script></script>
+=======
 <!--team section-->
 <section class="team-section section">
   <div class="container">
@@ -275,6 +454,7 @@ WEBSITE: https://themefisher.com
             <h4>Dr. Robert Barrethion</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
             <a href="appointment.html" class="btn btn-main">Book Appointment</a>
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
           </div>
         </div>
       </div>
@@ -294,7 +474,7 @@ WEBSITE: https://themefisher.com
             <div class="footer-logo">
               <figure>
                 <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="images/logo-2.png" alt="medic">
+                  <img loading="lazy" class="img-fluid" src="static/images/logo-2.png" alt="medic">
                 </a>
               </figure>
             </div>
@@ -388,6 +568,7 @@ WEBSITE: https://themefisher.com
 
 
 <!-- jquery -->
+<<<<<<< HEAD
 <script src="../staticplugins/jquery.min.js"></script>
 <!-- bootstrap -->
 <script src="../staticplugins/bootstrap/bootstrap.min.js"></script>
@@ -407,6 +588,32 @@ WEBSITE: https://themefisher.com
 
 <!-- script js -->
 <script src="../static/js/script.js"></script>
+=======
+<script src="static/js/plugins/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="static/js/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- Slick Slider -->
+<script src="static/js/plugins/slick/slick.min.js"></script>
+<script src="static/js/plugins/slick/slick-animation.min.js"></script>
+<!-- FancyBox -->
+<script src="static/js/plugins/fancybox/jquery.fancybox.min.js" defer></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="static/js/plugins/google-map/gmap.js" defer></script>
+
+<!-- jquery-ui -->
+<script src="static/js/plugins/jquery-ui/jquery-ui.js" defer></script>
+<!-- timePicker -->
+<script src="static/js/plugins/timePicker/timePicker.js" defer></script>
+
+<!-- script js -->
+<<<<<<< HEAD
+<script src="static/js/logic.js"></script>
+<script src="static/js/class.js"></script>
+=======
+<script src="js/script.js"></script>
+>>>>>>> 4a6856a3e48781ae997437398876c2aad579aa21
+>>>>>>> 5c40424e7963091086b5147bd9938b3758fe269e
 </body>
 
 </html>

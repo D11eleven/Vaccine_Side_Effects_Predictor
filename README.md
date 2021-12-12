@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# VACCINE_TEST
-=======
+
+
 
 <div id="top"></div>
 
@@ -71,6 +70,7 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
 <li>Jupyter Notebook</li></ul>
 <li>VS Code</li></ul>
 <li>D3 JS</li></ul>
+<li>Seaborn JS</li></ul>
 <li>Any Chart JS</li></ul>  
 <li>HTML</li></ul>
 <li>CSS</li></ul>
@@ -115,9 +115,14 @@ Perform ETL, create a web-based platform to gather user inputs and return side e
 
 ## **Machine Learning Model**
   
-  * KNN to review symptoms based on user input selection and output a word cloud
-  * Logistic Regression Model, return rate of 90% accuracy 
+  * KNN to review and create list of associated side effect based on user input selections and output a word cloud of actual side effects
+  * Logistic Regression Model, return rate of 90% accuracy
  
+  ![image](Resources/KNN_image_output.png)  
+      
+  ![image](Resources/model_train_test.png)
+      
+  ![image](Resources/HeatMap.png)
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
